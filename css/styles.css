@@ -76,7 +76,7 @@ button {
 /* common */
 
 .container {
-  max-width: 320px;
+  max-width: 375px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -636,82 +636,82 @@ button {
 
 /* team */
 
-.team {
-  background-color: var(--color-cloud);
-  padding: 96px 0;
-}
-
-.team-title {
+.testimonials-section {
+  background-color: #f2fafa;
+  padding: 64px 0;
   text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
-.team-list {
-  background-color: var(--color-cloud);
+.testimonials-title {
+  font-family: "Cabin", sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+.testimonials-subtitle {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 24px;
+}
+
+.testimonials-list {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 320px;
   margin: 0 auto;
-  gap: 72px;
-}
-
-.team-item {
-  background-color: var(--color-white);
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-wrapper {
-  padding: 32px 0;
-}
-
-.team-name {
-  margin-bottom: 8px;
-  text-align: center;
-}
-
-.team-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.team-list-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 24px;
 }
 
-.team-item-icon {
-  width: 40px;
-  height: 40px;
+.testimonials-item {
+  background-color: #dfebeb;
+  border-radius: 24px;
+  padding: 12px;
 }
 
-.team-link-icon {
+.testimonials-text {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 32px;
+}
+
+.testimonial-author {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: var(--color-iris);
+  gap: 16px;
+}
+
+.testimonial-img {
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  object-fit: cover;
 }
 
-.team-link-icon:hover,
-.team-link-icon:focus {
-  background-color: var(--color-ocean);
+.testimonial-name {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #0d0b0a;
+  margin: 0;
 }
 
-.team-icon {
-  fill: var(--color-cloud);
+.testimonial-role {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0d0b0a;
+  margin: 0;
 }
 
 /* team  tab*/
